@@ -24,7 +24,37 @@
 }
 
 /*! ClearVision v7.0.0 by ClearVision Team */
+.info__2debe::after {
+	content: "ClearVision"" ""7.0.0";
+	color: var(--text-muted);
+	font-size: 12px;
+	line-height: 1.3333333333;
+	font-weight: 400;
+	font-family: var(--font-primary)
+}
 
+.leading_c38106::before {
+	content: "ClearVision";
+	position: static;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--text-normal);
+	order: 2;
+	filter: drop-shadow(0 0 5px var(--hsl-main-color))
+}
+
+.leading_c38106::after {
+	content: "7.0.0";
+	position: static;
+	margin-top: 3px;
+	margin-left: 5px;
+	font-family: var(--code-font);
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--text-muted);
+	order: 3
+}
 
 /*! ClearVision v7.0.0 by ClearVision Team */
 html {
